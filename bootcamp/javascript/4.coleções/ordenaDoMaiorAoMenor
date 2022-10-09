@@ -1,0 +1,12 @@
+/*
+Cria uma função que recebe um array como argumento e retorna um novo array com os elementos ordenados do maior ao menor.
+
+Utiliza o que aprendeste sobre o metodo SORT para resolver este exercício.
+
+Exemplo de Output: [4, 5, 6, 7] => [7, 6, 5, 4]
+*/
+
+function ordenaDoMaiorAoMenor(array){
+    // escreve aqui a função
+    return array.sort((a, b) => b - a);
+}
